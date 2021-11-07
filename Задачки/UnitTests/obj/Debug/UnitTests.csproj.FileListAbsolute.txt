@@ -1,0 +1,17 @@
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Homework.exe
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Homework.pdb
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Homework.exe.config
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\obj\Debug\UnitTests.csproj.AssemblyReference.cache
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete

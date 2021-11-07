@@ -1,2 +1,1 @@
-# wasp-academy-HomeWork
-Репозиторий для хранения выполненных домашних заданий 
+# WASP-Academy
