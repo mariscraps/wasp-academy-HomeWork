@@ -21,9 +21,31 @@ namespace Homework
     {
         public static string Decrypt(string key)
         {
-            // Здесь необходимо написать код.
+            Dictionary<string, int> dict = new Dictionary<string, int>();
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            char[] chars = new char[alphabet.Length];
+            for (int i = 0; i < alphabet.Length; i++)
+            {
+                dict.Add(Convert.ToString(alphabet[i]), 0);
+            }
 
-            return "";
+            for (int i = 0; i < key.Length; i++)
+            {
+                if (dict.ContainsKey(Convert.ToString(key[i])))
+                {
+                    dict[Convert.ToString(key[i])] += 1;
+                }
+            }
+
+            for (int i = 0; i < alphabet.Length; i++)
+            {
+                chars[i] = Char.Parse(dict[Convert.ToString(alphabet[i])].ToString());
+            }
+
+            string res = new string(chars);
+            Console.WriteLine(res);
+
+            return res;
         }
     }
 }

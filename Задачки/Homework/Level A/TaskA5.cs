@@ -19,9 +19,21 @@ namespace Homework
     {
         public static List<int> ArrayOfTiers(int number)
         {
-            // Здесь необходимо написать код.
+            var res = new List<int>();
+            string s = Convert.ToString(number);
 
-            return null;
+            for (int i = 0; i < s.Length + 1; i++)
+            {
+                if (i >= 1)
+                {
+                    res.Add(Convert.ToInt32(s.Substring(0, i)));
+                }
+            }
+            foreach (int a in res)
+            {
+                Console.WriteLine(a);
+            }
+            return res;
         }
     }
 }

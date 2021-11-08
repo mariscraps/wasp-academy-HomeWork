@@ -12,3 +12,14 @@ C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\�
 C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
 C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\Homework\obj\Debug\Homework.exe
 C:\Users\AntonKislyakov\Documents\GitHub\WASP-Academy-Homework-BasicOperations\Задачки\Homework\obj\Debug\Homework.pdb
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Homework.exe.config
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Homework.exe
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Homework.pdb
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\obj\Debug\Homework.csproj.CoreCompileInputs.cache
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\obj\Debug\Homework.exe
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\obj\Debug\Homework.pdb
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Задачки\Homework\obj\Debug\Homework.csproj.AssemblyReference.cache

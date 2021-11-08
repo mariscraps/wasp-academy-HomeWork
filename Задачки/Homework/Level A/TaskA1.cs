@@ -21,9 +21,21 @@ namespace Homework
     {
         public static int NumberOfSquares(int limit)
         {
-            // Здесь необходимо написать код.
-            
-            return 0;
+            double count = 0;
+            double current_summa = 0;
+            while (current_summa < limit)
+            {
+                count += 1;
+                current_summa += (Math.Pow(count, 2));
+                if (current_summa >= limit)
+                {
+                    count -= 1;
+
+                }
+            }
+            int res = Convert.ToInt32(count);
+            Console.WriteLine(res);
+            return res;
         }
     }
 }

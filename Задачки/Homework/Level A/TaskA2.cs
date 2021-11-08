@@ -20,9 +20,71 @@ namespace Homework
     {
         public static bool VeryEven(int number)
         {
-            // Здесь необходимо написать код.
+            int count = 0;
+            bool res = true;
+            int ans = 100;
+            string anss = "    ";
+            if (number > -10 && number < 10)
+            {
+                if (number % 2 == 0)
+                {
+                    res = true;
+                }
 
-            return false;
+                else
+                {
+                    res = false;
+                }
+            }
+
+            else if (number >= 10)
+            {
+                string s = Convert.ToString(number);
+                var charArray = s.ToCharArray();
+                while (ans >= 10)
+                {
+                    if (count == 0)
+                    {
+                        ans = 0;
+                        for (int i = 0; i < s.Length; i++)
+                        {
+                            ans += (charArray[i] - '0');
+                        }
+                        if (ans >= 10)
+                        {
+                            anss = Convert.ToString(number);
+                            charArray = anss.ToCharArray();
+                        }
+                        count++;
+                    }
+
+                    else
+                    {
+                        ans = 0;
+                        for (int i = 0; i < anss.Length; i++)
+                        {
+                            ans += (charArray[i] - '0');
+                        }
+                        if (ans >= 10)
+                        {
+                            anss = Convert.ToString(ans);
+                            charArray = anss.ToCharArray();
+                        }
+                    }
+                }
+
+                if (ans % 2 == 0)
+                {
+                    res = true;
+                }
+
+                else
+                {
+                    res = false;
+                }
+            }
+            Console.WriteLine(res);
+            return res;
         }
     }
 }

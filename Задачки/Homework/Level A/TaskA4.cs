@@ -20,9 +20,29 @@ namespace Homework
     {
         public static List<int> ListOfSums(List<int> list)
         {
-            // Здесь необходимо написать код.
+            var res = new List<int>();
 
-            return null;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (i >= 1)
+                {
+                    int ans = 0;
+                    for (int j = 0; j < i; j++)
+                    {
+                        ans += list[j];
+                    }
+
+                    if (list[i] == ans)
+                    {
+                        res.Add(list[i]);
+                    }
+                }
+            }
+            foreach (int a in res)
+            {
+                Console.WriteLine(a);
+            }
+            return res;
         }
     }
 }

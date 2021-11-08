@@ -19,9 +19,70 @@ namespace Homework
     {
         public static bool CheckBrackets(string s)
         {
-            // Здесь необходимо написать код.
+            int count = 0;
+            string[] arr = new string[s.Length];
+            //Queue<string> q = new Queue<string>(arr);
+            //Stack<string> r = new Stack<string>(arr);
+            bool fine = true;
+            for (int i = 0; i < s.Length; i++)
+            {
+                Console.WriteLine(arr.Length);
 
-            return false;
+                if (Convert.ToString(s[i]) == "[" || Convert.ToString(s[i]) == "{" || Convert.ToString(s[i]) == "(" || Convert.ToString(s[i]) == "<")
+                {
+                    arr[i] = Convert.ToString(s[i]);
+                    count++;
+                }
+
+                else if (Convert.ToString(s[i]) == "[" || Convert.ToString(s[i]) == "{" || Convert.ToString(s[i]) == "(" || Convert.ToString(s[i]) == ">")
+                {
+                    if (count == 0)
+                    {
+                        fine = false;
+                        break;
+                    }
+
+                    string open_bracket = arr[0];
+                    Array.Clear(arr, 0, 2);
+
+                    if (open_bracket == "(" && Convert.ToString(s[i]) == ")")
+                    {
+                        continue;
+                    }
+
+                    if (open_bracket == "[" && Convert.ToString(s[i]) == "]")
+                    {
+                        continue;
+                    }
+
+                    if (open_bracket == "{" && Convert.ToString(s[i]) == "}")
+                    {
+                        continue;
+                    }
+
+                    if (open_bracket == "<" && Convert.ToString(s[i]) == ">")
+                    {
+                        continue;
+                    }
+
+                    fine = false;
+
+                    break;
+                }
+            }
+
+            if (fine && arr.Length == 0)
+            {
+                fine = true;
+            }
+
+            else
+            {
+                fine = false;
+            }
+
+            Console.WriteLine(fine);
+            return fine;
         }
     }
 }

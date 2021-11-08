@@ -22,9 +22,17 @@ namespace Homework
     {
         public static int SumCube(int n, int m)
         {
-            // Здесь необходимо написать код.
+            int min = Math.Min(n, m);
+            int max = Math.Max(n, m);
 
-            return 0;
+            int res = 0;
+            for (int i = min + 1; i <= max; i++)
+            {
+                res += Convert.ToInt32(Math.Pow(i, 3));
+            }
+
+            Console.WriteLine(res);
+            return res;
         }
     }
 }
