@@ -6,8 +6,8 @@ namespace Metropoliten
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            // fgfg
+            //Console.WriteLine("Hello World!");
+            
         }
     }
 }
