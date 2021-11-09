@@ -1,0 +1,14 @@
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\bin\Debug\netcoreapp3.1\Metropoliten.exe
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\bin\Debug\netcoreapp3.1\Metropoliten.deps.json
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\bin\Debug\netcoreapp3.1\Metropoliten.runtimeconfig.json
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\bin\Debug\netcoreapp3.1\Metropoliten.runtimeconfig.dev.json
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\bin\Debug\netcoreapp3.1\Metropoliten.dll
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\bin\Debug\netcoreapp3.1\Metropoliten.pdb
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.csproj.AssemblyReference.cache
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.AssemblyInfoInputs.cache
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.AssemblyInfo.cs
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.csproj.CoreCompileInputs.cache
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.dll
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.pdb
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Метрополитен 1\Metropoliten\obj\Debug\netcoreapp3.1\Metropoliten.genruntimeconfig.cache

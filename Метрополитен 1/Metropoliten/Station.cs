@@ -6,7 +6,6 @@ namespace Metropoliten
 {
     public class Station
     {
-
         // == ПОЛЯ КЛАССА ==
         // Название станции
         string name;
