@@ -55,8 +55,11 @@ namespace Metropoliten
             // пришло на вход в функцию
             this.color = color;
 
-            // Инициализируем переменную transfers
-            transfers = new List<Station>();
+            // заношу элементы со входа в список пересадок
+            foreach (Station a in transfers)
+            {
+                this.transfers.Add(a);
+            }
 
         }
 
@@ -75,30 +78,19 @@ namespace Metropoliten
         // проверка на наличие инвалидных колясок на станции
         public bool IsWheelchairAccessible()
         {
-            if (isWheelchairAccessible)
-            {
-                return true;
-            }
-            return false;
+            return isWheelchairAccessible;
         }
 
         // проверка на наличие парковки
         public bool HasParkAndRide()
         {
-            if (hasParkAndRide) {
-                return true;
-            }
-            return false;
+            return hasParkAndRide;
         }
 
         // проверка на наличие канатной дороги поблизости
         public bool HasNearbyCableCar()
         {
-            if (hasNearbyCableCar)
-            {
-                return true;
-            }
-            return false;
+            return hasNearbyCableCar;
         }
 
         // метод получения названия линии
