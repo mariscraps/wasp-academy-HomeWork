@@ -3,24 +3,29 @@ using System.Collections.Generic;
 
 namespace Music_disc_store
 {
-    public class Disk
+
+    public interface Istoreitem
     {
+        public double Price
+        {
+            get; set;
+        }
+
+        public void DiscountPrice(int percent)
+        {
+            Price = Price * (percent / 100);
+        }
+    }
+    public class Disk : Istoreitem
+    {
+        public double Price
+        {
+            get; set;
+        }
+
         protected string name;
         protected string genre;
         protected int burnCount;
-
-        public interface Istoreitem
-        {
-            public double Price
-            {
-                get; set;
-            }
-
-            public void DiscountPrice(int percent)
-            {
-                Price = Price * (percent / 100);
-            }
-        }
 
         public void DiscountPrice()
         {
