@@ -1,0 +1,5 @@
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Music disc store\Music disc store\obj\Debug\netcoreapp3.1\Music disc store.csproj.AssemblyReference.cache
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Music disc store\Music disc store\obj\Debug\netcoreapp3.1\Music disc store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Music disc store\Music disc store\obj\Debug\netcoreapp3.1\Music disc store.AssemblyInfoInputs.cache
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Music disc store\Music disc store\obj\Debug\netcoreapp3.1\Music disc store.AssemblyInfo.cs
+C:\Users\malyu\OneDrive\Рабочий стол\Git\wasp-academy-HomeWork\Music disc store\Music disc store\obj\Debug\netcoreapp3.1\Music disc store.csproj.CoreCompileInputs.cache
