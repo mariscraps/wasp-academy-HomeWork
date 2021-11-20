@@ -18,9 +18,33 @@ namespace Homework
     {
         public static string Reverser(string s)
         {
-            // Здесь необходимо написать код.
+            string w = "";
+            int spaces = s.Count(Char.IsWhiteSpace); 
+            string[] ab = new string[spaces + 1];
+            ab = s.Split(' ').ToArray();
+            foreach (string a in ab)
+            {
+                Console.WriteLine(a);
+                string neww = new string(a.ToCharArray().Reverse().ToArray());
+                w += neww;
+                w += " ";
 
-            return "";
+            }
+
+            int c = 0;
+            foreach (char a in s)
+            {
+                if (Convert.ToString(a) == " ")
+                {
+                    c++;
+                }
+            }
+
+            if (c != s.Length)
+            {
+                return w.Trim();
+            }
+            return s;
         }
     }
 }

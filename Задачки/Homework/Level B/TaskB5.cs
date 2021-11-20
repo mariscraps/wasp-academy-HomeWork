@@ -23,9 +23,27 @@ namespace Homework
     {
         public static string Frame(List<string> text, char symbol)
         {
-            // Здесь необходимо написать код.
-
-            return "";
+            int count = 0;
+            string s = "";
+            foreach (string a in text)
+            {
+                if (a.Length > count)
+                {
+                    count = a.Length;
+                }
+            }
+            string w = string.Concat(Enumerable.Repeat(Convert.ToString(symbol), (count + 4)));
+            s += w;
+            s += "\n";
+            for (int i = 0; i < text.Count; i++)
+            {
+                s = s + symbol + " " + text[i];
+                string d = string.Concat(Enumerable.Repeat(" ", (count + 3 - (symbol + " " + text[i]).Length)));
+                s += d;
+                s = s + symbol + "\n";
+            }
+            s += w;
+            return s;
         }
     }
 }

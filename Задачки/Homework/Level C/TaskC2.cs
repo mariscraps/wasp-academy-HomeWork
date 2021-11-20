@@ -21,9 +21,41 @@ namespace Homework
     {
         public static List<int> ChangeCent(double money)
         {
-            // Здесь необходимо написать код.
+            int[] arr = { 0, 0, 0, 0 };
+            List<int> all = new List<int>(arr);
+            int neww = (int)money;
+            while (neww != 0)
+            {
+                if (neww >= 25)
+                {
+                    neww -= 25;
+                    all[3] += 1;
+                }
 
-            return null;
+                else if (neww >= 10)
+                {
+                    neww -= 10;
+                    all[2] += 1;
+
+                }
+
+                else if (neww >= 5)
+                {
+                    neww -= 5;
+                    all[1] += 1;
+
+                }
+
+                else if (neww >= 1)
+                {
+                    neww -= 1;
+                    all[0] += 1;
+
+                }
+
+
+            }
+            return all;
         }
     }
 }

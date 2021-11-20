@@ -20,68 +20,94 @@ namespace Homework
         public static bool CheckBrackets(string s)
         {
             int count = 0;
-            string[] arr = new string[s.Length];
-            //Queue<string> q = new Queue<string>(arr);
-            //Stack<string> r = new Stack<string>(arr);
             bool fine = true;
+            Stack<char> all = new Stack<char>();
+
             for (int i = 0; i < s.Length; i++)
             {
-                Console.WriteLine(arr.Length);
-
-                if (Convert.ToString(s[i]) == "[" || Convert.ToString(s[i]) == "{" || Convert.ToString(s[i]) == "(" || Convert.ToString(s[i]) == "<")
+                if (Convert.ToString(s[i]) == "{" || Convert.ToString(s[i]) == "[" || Convert.ToString(s[i]) == "(" || Convert.ToString(s[i]) == "<")
                 {
-                    arr[i] = Convert.ToString(s[i]);
-                    count++;
+                    all.Push(s[i]);
                 }
 
-                else if (Convert.ToString(s[i]) == "[" || Convert.ToString(s[i]) == "{" || Convert.ToString(s[i]) == "(" || Convert.ToString(s[i]) == ">")
+                else if (Convert.ToString(s[i]) == "}")
                 {
-                    if (count == 0)
+                    if (all.Count != 0)
+                    {
+                        if (Convert.ToString(all.Pop()) != "{")
+                        {
+                            fine = false;
+                            break;
+                        }
+                    }
+
+                    else
                     {
                         fine = false;
                         break;
                     }
+                }
 
-                    string open_bracket = arr[0];
-                    Array.Clear(arr, 0, 2);
-
-                    if (open_bracket == "(" && Convert.ToString(s[i]) == ")")
+                else if (Convert.ToString(s[i]) == "]")
+                {
+                    if (all.Count != 0)
                     {
-                        continue;
+                        if (Convert.ToString(all.Pop()) != "[")
+                        {
+                            fine = false;
+                            break;
+                        }
                     }
 
-                    if (open_bracket == "[" && Convert.ToString(s[i]) == "]")
+                    else
                     {
-                        continue;
+                        fine = false;
+                        break;
+                    }
+                    
+                }
+
+                else if (Convert.ToString(s[i]) == ")")
+                {
+                    if (all.Count != 0)
+                    {
+                        if (Convert.ToString(all.Pop()) != "(")
+                        {
+                            fine = false;
+                            break;
+                        }
                     }
 
-                    if (open_bracket == "{" && Convert.ToString(s[i]) == "}")
+                    else
                     {
-                        continue;
+                        fine = false;
+                        break;
+                    }
+                }
+
+                else if (Convert.ToString(s[i]) == ">")
+                {
+                    if (all.Count != 0)
+                    {
+                        if (Convert.ToString(all.Pop()) != "<")
+                        {
+                            fine = false;
+                            break;
+                        }
                     }
 
-                    if (open_bracket == "<" && Convert.ToString(s[i]) == ">")
+                    else
                     {
-                        continue;
+                        fine = false;
+                        break;
                     }
-
-                    fine = false;
-
-                    break;
                 }
             }
-
-            if (fine && arr.Length == 0)
-            {
-                fine = true;
-            }
-
-            else
+            
+            if (all.Count != 0)
             {
                 fine = false;
             }
-
-            Console.WriteLine(fine);
             return fine;
         }
     }
