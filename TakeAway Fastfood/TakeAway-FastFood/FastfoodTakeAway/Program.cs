@@ -26,7 +26,7 @@ namespace TakeawayFastFood
                 _client.Log += LogAsync;
                 services.GetRequiredService<CommandService>().Log += LogAsync;
 
-                await _client.LoginAsync(TokenType.Bot, "OTEyNzU1NDY5ODQ2NzEyMzMw.YZ0jxg.36cCBVdrLxtZDOAUVeMtWPaHD58");
+                await _client.LoginAsync(TokenType.Bot, "token");
                 await _client.StartAsync();
 
                 await services.GetRequiredService<CommandServiceHandler>().InitializeAsync();
